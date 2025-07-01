@@ -1,0 +1,70 @@
+:root {
+    --gold: #D4AF37;
+    --charcoal: #282828;
+    --light-gray: #E6E6E6;
+    --font-source3: "Source Sans 3", "sans-serif";
+    --font-grotesk: "Space Grotesk", "sans-serif";
+    --font-roboto: "Roboto";
+}
+
+html { scroll-behavior: smooth;}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--light-gray);
+    color: var(--charcoal);
+    font-family: var(--font-roboto);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+h1 {
+    font-family: var(--font-grotesk);
+    text-shadow: 0 10px 3px rgba(0, 0, 0, 0.555);
+}
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#overlay {
+    opacity: 70%;
+}
+
+.hero-section {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+.nav-item:hover {
+    color: var(--gold);
+}
+
+#tattoo {
+    color: var(--gold);
+}
+
+#logo {
+    font-family: var(--font-source3);
+}
+
+.material-symbols-outlined {
+    font-size: 70px;
+}
+

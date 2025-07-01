@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roy Tattoo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=expand_circle_down" />
+    <link rel="stylesheet" href="./assets/index.css">
+    <style>
+        @theme {
+            --color-gold: #D4AF37;
+            --color-coal: #282828;
+            --color-light-gray: #E6E6E6;
+            --font-source3: "Source Sans 3", "sans-serif";
+            --font-grotesk: "Space Grotesk";
+            --font-roboto: "Roboto";
+        }
+    </style>
+</head>
+<body class="p-5 relative">
+    <div class="hero-section relative">  
+        <!-- Overlay -->
+        <div id="overlay" class="absolute inset-0 bg-black"></div> 
+        <header class="flex flex-row justify-between items-center p-10 bg-black opacity-80">
+            <!-- logo -->
+            <a href="#hero"><div id="logo" class="font-bold text-2xl">Roy <span id="tattoo">Tattoo</span></div></a>
+            <!-- menu -->
+            <nav class="hidden sm:flex" >
+                <ul class="flex gap-5">
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- hero section -->
+        <section id="hero" class="z-9">
+            <h1 class="font-bold text-4xl md:text-6xl lg:text-7xl drop-shadow-md">Ink That Tells Your Story</h1>
+            <div class="flex flex-col items-center  drop-shadow-sm px-5">
+                <p class="font-extralight text-sm md:text-lg">At Roy Tattoo, every design is a story. We blend precision, artistry, and hygiene to give you more than ink</p>
+                <p class="font-extralight text-sm md:text-lg">— we give you identity.</p>
+            </div>
+            <a href="#about" class="drop-shadow-sm"><span class="material-symbols-outlined text-[50px]">expand_circle_down</span></a>
+        </section>
+    </div>
+
+    <!-- about section -->
+    <div id="about" class="pl-10 pr-10 pt-10 grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch">
+        <section id="right" class="flex flex-col gap-5 h-full">
+            <div class="flex flex-col gap-5">
+                <h4 class="text-3xl font-(family-name:--font-grotesk)">Why Roy Tattoo?</h4>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >More than ink. It's a statement.</p></span>
+                <p>At Roy Tattoo, we believe every tattoo should tell a story — your story. That’s why we take time to understand your vision, translate it into bold, lasting art, and ink it with the precision of a master craftsman. Whether it’s your first piece or your tenth, we make sure it feels like your best.</p>
+            </div>
+            <div class="flex flex-col gap-5">
+                <h4 class="text-3xl font-(family-name:--font-grotesk)">Who We Are</h4>
+                <p>Led by Roy, a seasoned artist with a passion for clean lines and bold expression, we specialize in custom tattoos tailored to your personality and style. Our studio is a calm, welcoming space where creativity thrives and hygiene is never compromised. We don’t just ink — we advise, guide, and work with you until your piece is perfect.</p>
+            </div>
+            <div class="flex flex-col gap-5 p-7 text-white bg-[#282828]">
+                <h4 class="text-3xl font-(family-name:--font-grotesk)">Why Our Clients Trust Us</h4>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >Sterile & Safe</p></span>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >One-on-One Attention</p></span>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >Clear Pricing</p></span>
+            </div>
+        </section>
+        <section id="left" class="h-full">
+            <div class="flex flex-col gap-5 p-8 text-white bg-[#282828]">
+                <h4 class="text-3xl font-(family-name:--font-grotesk)">What We Offer</h4>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >Custom Tattoo Designs</p></span>
+                <p>Bring your idea or let us help you design one from scratch — original art, just for you.</p>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >Minimalistic Tattoos</p></span>
+                <p>Elegant, timeless designs that speak volumes in just a few lines.</p>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >Realism & Portrait Work</p></span>
+                <p>Hyper-detailed ink that captures people, memories, and moments.</p>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >Cover Ups & Fixes</p></span>
+                <p>Regret nothing. We transform your old ink into something you’ll be proud of.</p>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" >Traditional & Neo-Traditional</p></span>
+                <p>Bold, colorful designs with solid lines and deep meaning.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- portfolio -->
+     <div id="portfolio" class="pl-10 pt-10 pr-10">
+        <section>
+            <h2 class="text-3xl font-bold mb-8 text-center font-(family-name:--font-grotesk)">Our Work</h2>
+
+            <div id="collage"  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[200px]">
+                <!-- Item 1 - Tall -->
+                <div id="image_1" class="lg:row-span-2 bg-gray-200 sm:overflow-hidden shadow-lg">
+                    <img id="bw1" src="./images/1.png" class="w-full h-full object-cover" alt="Tattoo 1">
+                    <img id="c1" src="./images/1c.png" class="hidden w-full h-full object-cover" alt="Tattoo 1">
+                </div>
+
+                <!-- Item 2 - Wide -->
+                <div id="image_2" class="lg:col-span-2 bg-gray-200 sm:overflow-hidden shadow-lg">
+                    <img id="bw2" src="./images/2.png" class="w-full h-full object-cover" alt="Tattoo 2">
+                    <img id="c2" src="./images/2c.png" class="hidden w-full h-full object-cover" alt="Tattoo 2">
+                </div>
+
+                <!-- Item 3 - Normal -->
+                <div id="image_3" class="bg-gray-200 sm:overflow-hidden shadow-lg">
+                    <img id="bw3" src="./images/3.png" class="w-full h-full object-cover" alt="Tattoo 3">
+                    <img id="c3" src="./images/3c.png" class="hidden w-full h-full object-cover" alt="Tattoo 3">
+                </div>
+
+                <!-- Item 4 - Tall -->
+                <div id="image_4" class="lg:row-span-2 bg-gray-200 sm:overflow-hidden shadow-lg">
+                    <img id="bw4" src="./images/4.png" class="w-full h-full object-cover" alt="Tattoo 4">
+                    <img id="c4" src="./images/4c.png" class="hidden w-full h-full object-cover" alt="Tattoo 4">
+                </div>
+
+                <!-- Item 5 - Normal -->
+                <div id="image_5" class="bg-gray-200 sm:overflow-hidden shadow-lg">
+                    <img id="bw5" src="./images/5.png" class="w-full h-full object-cover" alt="Tattoo 5">
+                    <img id="c5" src="./images/5c.png" class="hidden w-full h-full object-cover" alt="Tattoo 5">
+                </div>
+
+                <!-- Item 6 - Normal -->
+                <div id="image_6" class="bg-gray-200 sm:overflow-hidden shadow-lg">
+                    <img id="bw6" src="./images/6.png" class="w-full h-full object-cover" alt="Tattoo 6">
+                    <img id="c6" src="./images/6c.png" class="hidden w-full h-full object-cover" alt="Tattoo 6">
+                </div>
+
+                <!-- Item 7 - Wide -->
+                <div id="image_7" class="lg:col-span-2 bg-gray-200 sm:overflow-hidden shadow-lg">
+                    <img id="bw7" src="./images/7.png" class="w-full h-full object-cover" alt="Tattoo 7">
+                    <img id="c7" src="./images/7c.png" class="hidden w-full h-full object-cover" alt="Tattoo 7">
+                </div>
+
+                <!-- Item 8 - Normal -->
+                <div id="image_8" class="bg-gray-200 sm:overflow-hidden shadow-lg">
+                    <img id="bw8" src="./images/8.png" class="w-full h-full object-cover" alt="Tattoo 8">
+                    <img id="c8" src="./images/8c.png" class="hidden w-full h-full object-cover" alt="Tattoo 8">
+                </div>
+
+                <!-- Item 9 - Tall -->
+                <!-- <div id="image_9" class="row-span-2 bg-gray-200 rounded-lg overflow-hidden">
+                <img id="bw9" src="/img/portfolio9.jpg" class="w-full h-full object-cover" alt="Tattoo 9">
+                <img id="c9" src="./images/1c.png" class="hidden w-full h-full object-cover" alt="Tattoo 9">
+                </div> -->
+            </div>
+        </section>
+
+     </div>
+
+      <!-- contact section -->
+    <div id="contact" class="p-10 grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch">
+        <section class="">
+            <div class="max-w-3xl mx-auto bg-white shadow-lg p-8">
+                <h2 class="text-3xl font-bold mb-6 text-center font-(family-name:--font-grotesk)">Book an Appointment</h2>
+
+                <form class="space-y-6">
+                <!-- Name -->
+                    <div>
+                        <p class="font-light text-xs mb-1">Name</p>
+                        <input type="text" id="name" placeholder="name" required
+                        class="peer w-full border border-gray-400 px-4 py-3 focus:outline-none focus:border-[#282828]" />
+                    </div>
+
+                    <!-- Email / Phone -->
+                    <div>
+                        <p class="font-light text-xs mb-1">Email or Phone</p>
+                        <input type="text" id="contact" placeholder="Email or Phone" required
+                        class="peer w-full border border-gray-400 px-4 py-3 focus:outline-none focus:border-[#282828]" />
+                    </div>
+
+                    <!-- Date -->
+                    <div>
+                        <p class="font-light text-xs mb-1">Preferred Date</p>
+                        <input type="date" id="date" placeholder="Preferred Date" required
+                        class="peer w-full border border-gray-400 px-4 py-3 focus:outline-none focus:border-[#282828] text-gray-700" />
+                    </div>
+
+                    <!-- Description -->
+                    <div>
+                        <p class="font-light text-xs mb-1">Description or Idea</p>
+                        <textarea id="description" placeholder="Description or Idea" rows="4"
+                        class="peer w-full border border-gray-400 px-4 py-3 focus:outline-none focus:border-[#282828] resize-none"></textarea>
+                    </div>
+
+                    <!-- File Upload -->
+                    <div class="flex flex-col items-center justify-center">
+                        <p class="font-light text-xs mb-1">Reference Photo</p>
+                        <label for="upload"
+                        class="w-20 h-20 rounded-full border-2 border-dashed border-gray-400 flex items-center justify-center cursor-pointer hover:border-black transition group">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-8 w-8 text-gray-400 group-hover:text-black transition" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 4v16m8-8H4" />
+                        </svg>
+                        <input type="file" id="upload" class="hidden" />
+                        </label>
+                    </div>
+
+                    <!-- Book Button -->
+                    <div class="text-center">
+                        <button type="submit"
+                        class="bg-[#282828] text-white px-8 py-3 w-full font-semibold hover:bg-black transition">
+                        Book Now
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="left" class="h-full">
+            <div class="flex flex-col gap-5 p-8 text-white bg-[#282828]">
+                <h4 class="text-3xl font-(family-name:--font-grotesk)">Our Location</h4>
+                <div class="border-l-4 border-l-[gold]">
+                    <p class="font-extralight italic pl-6">Katapa street house number 47 libala stage 1 Lusaka</p>
+                </div>
+                <div class="h-100 w-full bg-white" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15383.264986572296!2d28.297685555419925!3d-15.440465900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19408d23e7f2b72b%3A0x20217823f091ceaa!2sRoy%20Tattoo%20Lusaka%20Zambia!5e0!3m2!1sen!2szm!4v1751371906848!5m2!1sen!2szm" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <h4 class="text-3xl font-(family-name:--font-grotesk)">Reach Out</h4>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" ><a href="tel:+260974299366">+260974299366</a></p></span>
+                <span class="flex items-center gap-5 text-base"><div class="w-1 h-7 bg-[gold]"></div><p class="italic font-extralight" ><a href="mailto:roytattoo@gmail.com">roytattoo@gmail.com</a></p></span>
+            </div>
+        </section>
+    </div>
+
+    <footer class="w-full h-50 bg-[#282828] text-white flex flex-col gap-5 justify-center items-center">
+        <p>&copy; 2025 Roy Tattoo</p>
+        <p>Designed with Ink & Code</p>
+    </footer>
+
+    <script src="./assets/index.js"></script>
+</body>
+</html>
